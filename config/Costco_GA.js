@@ -33,7 +33,7 @@ var exec = function(){
   
   //一層、二層分類選單
   ga_mouse_over_event(".show-sub-menu","Menu_Hover");
-/*  ga_mouse_over_event('.topmenu:contains("所有  影音電視")','Third_Layer_Menu_Hover');
+/*  ga_mouse_over_event('.topmenu:contains("所有  影音電視")','Third_Layer_Menu_Hover');
   ga_mouse_over_event('.topmenu:contains("60-69 吋")','Third_Layer_Menu_Hover');
   ga_mouse_over_event('.topmenu:contains("50-59 吋")','Third_Layer_Menu_Hover');				
   ga_mouse_over_event('.topmenu:contains("40-49 吋")','Third_Layer_Menu_Hover');				
@@ -69,17 +69,16 @@ var exec = function(){
     ga_mouse_click_event('#siteLogoContainer','Logo_siteLogoContainer_Click')
     //標籤LOGO滑動
     ga_mouse_over_event('#siteLogoContainer','Logo_siteLogoContainer_Hover')
-    
+       
     //首頁橫幅廣告
     //首頁橫幅廣告點擊
-    ga_mouse_click_event('.owl-wrapper-outer','Home_Banner_owl-wrapper-outer_Click')
+    ga_mouse_click_event('.lazyOwl.js-responsive-carousel-image','Home_Banner_lazyOwl_Click')
     //首頁橫幅廣告滑動
-    ga_mouse_over_event('.owl-wrapper-outer','Home_Banner_owl-wrapper-outer_Hover')
+    ga_mouse_over_event('.lazyOwl.js-responsive-carousel-image','Home_Banner_lazyOwl_Hover')
     //首頁橫幅廣告右箭頭紐點擊
     ga_mouse_click_event('.owl-next','Good_Information_Simple_Left_owl-next_Click')
     //首頁橫幅廣告左箭頭紐點擊
-    ga_mouse_click_event('.owl-prev','Good_Information_Simple_Right_owl-prev_Click')
-       
+    ga_mouse_click_event('.owl-prev','Good_Information_Simple_Right_owl-prev_Click')	
     
     //首頁大標
     //首頁大標點擊
@@ -154,11 +153,9 @@ var exec = function(){
         
     //商品介紹資訊區(簡式，無比較產品按鈕)
     //商品介紹資訊區塊(簡式，無比較產品按鈕)滑動
-    ga_mouse_over_event('.owl-item','Good_Information_Simple_owl-item_Hover')
+    ga_mouse_over_event('.item.product-item ','Good_Information_Simple_.item.product-item_Hover')
     //商品介紹資訊區塊(簡式，無比較產品按鈕)點擊
-    ga_mouse_click_event('.owl-item','Good_Information_Simple_owl-item_Click')
-    
-    
+    ga_mouse_click_event('.item.product-item' ,'Good_Information_Simple_.item.product-item_Click')	
     
     //商品介紹資訊區(詳式，具比較產品按鈕)
     //商品介紹資訊區塊(詳式，具比較產品按鈕)滑動
@@ -168,7 +165,9 @@ var exec = function(){
     //商品介紹資訊文字(詳式，具比較產品按鈕)點擊
     ga_mouse_click_event('.product-list-details','Good_Information_Text_Normal_product-list-details_Click')
     //商品介紹資訊比較產品按鈕(詳式，具比較產品按鈕)點擊
-    ga_mouse_click_event('.product-compare-checkbox__label','Good_Information_Text_Porduct_Compare_product-compare-checkbox__label_Click')
+    //  ga_mouse_click_event('.__label','Good_Information_Text_Porduct_Compare_product-compare-checkbox__label_Click')
+    ga_mouse_click_event('.checkbox-label','Good_Information_Porduct_Compare_Click')
+			
     //商品介紹資訊區塊(詳式，具比較產品按鈕)點擊，作廢
     //ga_mouse_click_event('.product-item.vline','Good_Information_Normal_product-item.vline_Click')
         
@@ -258,5 +257,4 @@ $(function () {
         });
     });
 });
-
 
