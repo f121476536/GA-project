@@ -1,4 +1,4 @@
-GA_TRACE_CODE = "UA-110096492-2";
+GA_TRACE_CODE = "UA-110079728-3";
 
 var _local_debug = true;
 
@@ -10,8 +10,8 @@ if(_local_debug == false){
   console.log("[LOCAL TEST MODE]");
 }
 else {
-  CSS_URL = "https://medo972283.github.io/GA-project/config/Costco_GA.css";
-  LIB_URL = "https://medo972283.github.io/GA-project/ga_inject_lib.js";
+  CSS_URL = "https://f121476536.github.io/GA-project/config/Costco_GA.css";
+  LIB_URL = "https://f121476536.github.io/GA-project/ga_inject_lib.js";
   
 }
 
